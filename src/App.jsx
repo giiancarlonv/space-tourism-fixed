@@ -3,13 +3,14 @@ import {Home} from './pages/Home';
 import { Specialist, Engineer, Pilot, Commander } from './pages/Crew';
 import { Moon, Mars, Europa, Titan } from './pages/Destination';
 import { Capsule, Spaceport, Vehicle } from "./pages/Technology";
+import './styles/styles.css';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='giiancarlonv.github.io/space-tourism_fixed' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='mark' element={<Specialist />} />
           <Route path='douglas' element={<Commander />} />
           <Route path='anousheh' element={<Engineer />} />
