@@ -1,5 +1,4 @@
-import { DestinationNav, Navbar } from "../Navbar";
-import bgImage from '../assets/assets/destination/background-destination-mobile.jpg';
+import { Navbar } from "../Navbar";
 import { Destination, DestinationBG } from "../data";
 import moon from '../assets/assets/destination/image-moon.webp';
 import europa from '../assets/assets/destination/image-europa.webp';

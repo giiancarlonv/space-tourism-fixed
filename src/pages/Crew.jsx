@@ -3,7 +3,6 @@ import mark from '../assets/assets/crew/image-mark-shuttleworth.webp';
 import douglas from '../assets/assets/crew/image-douglas-hurley.webp';
 import anousheh from '../assets/assets/crew/image-anousheh-ansari.webp';
 import victor from '../assets/assets/crew/image-victor-glover.webp';
-import bgImage from '../assets/assets/crew/background-crew-mobile.jpg';
 import { CrewData, CrewBG } from "../data";
 
 export function Specialist(){

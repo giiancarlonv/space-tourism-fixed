@@ -1,6 +1,5 @@
 import React from 'react'
 import { Navbar } from '../Navbar';
-import bgImage from '../assets/assets/technology/background-technology-mobile.jpg';
 import spaceCapsule from '../assets/assets/technology/image-space-capsule-landscape.jpg';
 import spaceCapsuleDesktop from '../assets/assets/technology/image-space-capsule-portrait.jpg';
 
