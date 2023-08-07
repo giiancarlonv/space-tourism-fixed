@@ -10,6 +10,7 @@ body{
 }
 $fontColor: #a8a8a8;
 .navbar{
+  
   padding: 1.5rem;
   display: flex;
   align-items: center;
@@ -19,6 +20,7 @@ $fontColor: #a8a8a8;
   }
 }
 .home-bg{
+  transition: .5s ease;
   height: 100vh;
   width: 100vw;
   position: absolute;

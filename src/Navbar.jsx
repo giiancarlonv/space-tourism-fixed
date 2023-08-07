@@ -18,11 +18,11 @@ export const Navbar =()=>{
   return(
     <>
       <div className='navbar'>
-        <Link to='/'><img src={logo} alt='test' /></Link>
+        <Link to='/space-tourism-fixed'><img src={logo} alt='test' /></Link>
         <img src={hamburger} alt='test' onClick={toggleMenu} className='burger-btn'/>
         <nav className={mobileNav >= 810 ? 'desktopNav' :'desktopNav-hidden'}>
           <ul> 
-            <li><Link to='/' className={path === '/' ? 'active':''}>00 Home</Link></li>
+            <li><Link to='/space-tourism-fixed' className={path === '/space-tourism-fixed' ? 'active':''}>00 Home</Link></li>
             <li><Link to='/moon' className={ isActiveDestination ? 'active':''}>01 Destination</Link></li>
             <li><Link to='/mark' className={ isActiveCrew ? 'active':''}>02 Crew</Link></li>
             <li><Link to='/space-capsule' className={isTechActive ? 'active':''}>03 Technology</Link></li>
