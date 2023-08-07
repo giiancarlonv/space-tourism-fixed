@@ -91,7 +91,7 @@ export const HomeBG = () => {
     bgImage = bgImageMobile;
   }
   return(
-    <img src={bgImage} className="home-bg" />
+    <img src={bgImage} alt='BG image' className="home-bg" />
   )
 }
 export const DestinationBG = () =>{
@@ -105,7 +105,7 @@ export const DestinationBG = () =>{
     bgImage = desImageMobile;
   }
   return(
-    <img src={bgImage} className="home-bg" />
+    <img src={bgImage} alt='BG image' className="home-bg" />
   )
 }
 export const CrewBG = () =>{
@@ -134,6 +134,6 @@ export const TechBG = () =>{
     bgImage = techImageDesktop;
   }
   return(
-    <img src={bgImage} className="home-bg" />
+    <img src={bgImage} alt='BG image' className="home-bg" />
   )
 }
